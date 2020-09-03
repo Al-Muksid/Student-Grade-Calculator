@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading, .Wnumber, .Mnumber, .Cnumber, .Pnumber {
+    width: 100%;
+    height: 100%;
+    animation: pulse 5s infinite;
+  }
+  
+@keyframes pulse {
+    0% {
+      background-color: lightgreen;
+    }
+    100% {
+      background-color: lightskyblue;
+    }
+}
+
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Calculator{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Squada One', cursive;
+    border: 5px solid;
+}
+
+.Calculator{
+
+}
+
+.Wnumber{
+   font-size: 20px;
+   font-weight: bold;
+   color: grey;
+   width: 200px;
+   text-align: center;
+   border: 2px solid ;
+   border-radius: 100px;
+}
+
+.Mnumber{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    width: 200px;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 100px;
+
+}
+
+.Cnumber{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    width: 200px;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 100px;
+
+}
+
+.Pnumber{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+    width: 200px;
+    text-align: center;
+    border: 2px solid ;
+    border-radius: 100px;
+
+}
+.btn{
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid goldenrod;
+}
+.click{
+    color: lightgreen;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Squada One', cursive;
+}
+
+.click:hover{
+    text-decoration: none;
+    box-shadow: black;
+    color: white;
+}
+
+.gradedisplay{
+    border: 3px solid yellow;
+    border-radius: 80px;
+}
+
+
+.grade{
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+    padding-left: 15px;
+    align-items: center;
+}
